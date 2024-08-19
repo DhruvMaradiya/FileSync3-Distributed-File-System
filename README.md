@@ -8,6 +8,7 @@ FileSync3 is a distributed file system that enables seamless file management bet
 - **Download Files:** Clients can download files from Smain.
 - **Remove Files:** Clients can delete files stored on Smain and retrieve them to their local directory.
 - **Create Tar Files:** Clients can create a tar archive of specific file types and download it from Smain.
+- **Path Display:** Clients can display the full path of a file.
 
 ## Server Distribution
 - `.c` files are stored locally on Smain.
@@ -19,15 +20,15 @@ All file transfers to Spdf and Stext are handled by Smain, and clients are unawa
 ## Installation and Setup
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/FileSync3-Distributed-File-System.git
+    git clone https://github.com/yourusername/FileSync3-Distributed-File-System.git](https://github.com/pateladiti0401/FileSync3-Distributed-File-System.git
     cd FileSync3-Distributed-File-System
     ```
 
 2. **Compile the Servers and Client:**
     ```bash
-    gcc -o smain smain.c
-    gcc -o spdf spdf.c
-    gcc -o stext stext.c
+    gcc -o smain Smain.c
+    gcc -o spdf Spdf.c
+    gcc -o stext Stext.c
     gcc -o client client.c
     ```
 
@@ -70,6 +71,10 @@ All file transfers to Spdf and Stext are handled by Smain, and clients are unawa
     dtar .c
     dtar .pdf
     dtar .txt
+    ```
+- **Display Path**
+    ```bash
+    display pathname
     ```
 
 ## Sample Files
