@@ -20,7 +20,7 @@ All file transfers to Spdf and Stext are handled by Smain, and clients are unawa
 ## Installation and Setup
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/pateladiti0401/FileSync3-Distributed-File-System.git
+    git clone https://github.com/dhruvmaradiya/FileSync3-Distributed-File-System.git
     cd FileSync3-Distributed-File-System
     ```
 
